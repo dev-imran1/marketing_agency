@@ -1,0 +1,25 @@
+@mixin peragraph($width,$padding,$color){
+    font-family: $primary__font;
+    font: size 20px;;
+    font-weight: 400;
+    color:$color;
+    line-height: 150%;
+    width: $width;
+    padding:$padding;
+    text-transform: capitalize;
+}
+@mixin btn{
+    padding: 10px 40px;
+    background-color: #b0acac;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-family: $primary__font;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+    display: inline-block;
+    &:hover{
+        background-color: $primary__color;
+        color: white;
+    }
+}
