@@ -1,26 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-ul, ol {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  line-height: 0.8;
-}
-
-.container {
-  width: 1320px;
-  margin: 0 auto;
-}
-
 #navbar {
   padding: 31px 0;
 }
@@ -103,8 +80,36 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 600;
   transition: all linear 0.3s;
   display: inline-block;
+  margin-bottom: 149px;
 }
 #banner .banner__btn:hover {
   background-color: #554C8A;
   color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 0.8;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+#business {
+  position: relative;
 }/*# sourceMappingURL=style.css.map */

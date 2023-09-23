@@ -1,0 +1,26 @@
+#banner{
+    position: relative;
+    .banner__image picture img{
+        width: 100%;
+        position: absolute;
+        object-fit: cover;
+        overflow: hidden;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+    .banner__heading{
+        font-size: 70px;
+        width: 720px;
+        font-family: $secondary__font;
+        line-height: 140%;
+        color:white;
+        padding-top: 148px;
+    }
+    .banner__text{
+        @include peragraph(430px,32px 0 50px 0,#fff,);
+    }
+    .banner__btn{
+        @include btn (149px);
+    }
+}

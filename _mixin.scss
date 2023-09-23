@@ -8,7 +8,7 @@
     padding:$padding;
     text-transform: capitalize;
 }
-@mixin btn{
+@mixin btn($mb){
     padding: 10px 40px;
     background-color: #b0acac;
     border-radius: 8px;
@@ -18,6 +18,7 @@
     font-weight: 600;
     transition: all linear 0.3s;
     display: inline-block;
+    margin-bottom:$mb;
     &:hover{
         background-color: $primary__color;
         color: white;
