@@ -8,19 +8,31 @@
     padding:$padding;
     text-transform: capitalize;
 }
-@mixin btn($mb){
+@mixin btn($mb,$mt){
     padding: 10px 40px;
     background-color: #b0acac;
     border-radius: 8px;
     text-transform: capitalize;
-    font-family: $primary__font;
+    font-family: #000;
     font-size: 20px;
     font-weight: 600;
     transition: all linear 0.3s;
     display: inline-block;
     margin-bottom:$mb;
+    margin-top: $mt;
     &:hover{
         background-color: $primary__color;
         color: white;
     }
+}
+@mixin title($fontsize, $width, $mt, $mb){
+    font-family: $secondary__font;
+    font-size: $fontsize;
+    font-weight: 700;
+    line-height: 150%;
+    color: $primary__color;
+    text-transform: capitalize;
+    width: $width;
+    margin-top: $mt;
+    margin-bottom: $mb;
 }

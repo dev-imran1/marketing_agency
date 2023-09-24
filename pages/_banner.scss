@@ -21,6 +21,6 @@
         @include peragraph(430px,32px 0 50px 0,#fff,);
     }
     .banner__btn{
-        @include btn (149px);
+        @include btn (149px,null);
     }
 }
