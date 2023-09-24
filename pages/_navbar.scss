@@ -7,7 +7,7 @@
         align-items: center;
         .navbar__menu-wrapper{
             display: flex;
-            column-gap: 15px;
+            column-gap: 40px;
             .navbar__item a{
                 text-transform: capitalize;
                 font-size: 18px;
@@ -28,7 +28,8 @@
             border-radius: 100px;
             border: 1px solid black;
             display: flex;
-            padding: 15px 10px;
+            justify-content: space-between;
+            padding: 13px 23px;
             h3{
                 font-size: 14px;
                 font-weight: 400;
