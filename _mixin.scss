@@ -10,7 +10,7 @@
 }
 @mixin btn($mb,$mt){
     padding: 10px 40px;
-    background-color: #b0acac;
+    background-color: transparent;
     border-radius: 8px;
     text-transform: capitalize;
     font-family: #000;
@@ -20,8 +20,9 @@
     display: inline-block;
     margin-bottom:$mb;
     margin-top: $mt;
+    border: 1px solid #000;
     &:hover{
-        background-color: $primary__color;
+        background: linear-gradient(90deg, #8D5BEA 0%, #704CD6 100%);
         color: white;
     }
 }

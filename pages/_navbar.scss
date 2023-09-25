@@ -19,6 +19,8 @@
                 &:hover{
                     color: #955EF0;
                     background-color: red($color: #000000);
+                    transform: scale(1.11);
+                    font-weight: bold;
                 }
             }
         }
